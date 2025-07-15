@@ -1,0 +1,41 @@
+name: UltimateBackpacks
+version: 1.0
+main: dev.yours4nty.ultimatebackpacks.UltimateBackpacks
+api-version: 1.20
+
+commands:
+  openbp:
+    description: Opens the personal backpacks GUI.
+    usage: /openbp
+
+  givebackpack:
+    description: Gives a custom backpack to a player.
+    usage: /givebackpack <player>
+    permission: ultimatebackpacks.give
+
+  ubp:
+    description: Administrative command for UltimateBackpacks.
+    usage: /ubp view <player> [index]
+    permission: ultimatebackpacks.admin
+
+  backpack:
+    description: Manage shared backpacks.
+    usage: /backpack <newshared|adduser|removeuser|delshared|transferowner>
+    permission: ultimatebackpacks.shared.manage
+
+permissions:
+  ultimatebackpacks.admin:
+    description: Full access to administrative commands.
+    default: op
+
+  ultimatebackpacks.give:
+    description: Allows giving custom backpacks to players.
+    default: op
+
+  ultimatebackpacks.shared.manage:
+    description: Allows managing your own shared backpacks (create, add/remove members).
+    default: true
+
+  ultimatebackpacks.shared.admin:
+    description: Allows managing any shared backpack, even without being a member.
+    default: op

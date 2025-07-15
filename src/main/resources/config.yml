@@ -1,0 +1,62 @@
+# =============================================
+#           UltimateBackpacks - Config
+# =============================================
+# This file controls all core plugin settings.
+# Plugin by yours4nty <https://github.com/yours4nty>
+
+# -------------------------
+# General Settings
+# -------------------------
+
+# Language used for plugin messages.
+# Available options: "en", "es"
+language: en
+
+# Enable or disable the shared backpacks system.
+# If false, players won't be able to use any shared backpack commands or GUIs.
+allowSharedBackpacks: true
+
+# -------------------------
+# Storage Settings
+# -------------------------
+storage:
+  # Storage engine used by the plugin.
+  # Options: YAML, SQLITE, MYSQL
+  type: YAML
+
+  # SQLite settings (used only if type is SQLITE)
+  sqlite:
+    file: "backpacks.db"
+
+  # MySQL settings (used only if type is MYSQL)
+  mysql:
+    host: "localhost"
+    port: 3306
+    database: "minecraft"
+    user: "minecraft"
+    password: "minecraft"
+    useSSL: false
+    maxPoolSize: 10
+
+# -------------------------
+# GUI Appearance Settings
+# -------------------------
+gui:
+  # Colors used for the shulker boxes in the main backpack selector GUI.
+  # Top: row of personal backpacks (slots 19–25)
+  # Bottom: row of extra icons (slots 30–32)
+  # Use valid Bukkit material names in UPPERCASE.
+  shulkerColors:
+    top: [RED, ORANGE, YELLOW, LIME, GREEN, CYAN, LIGHT_BLUE]
+    bottom: [PURPLE, MAGENTA, PINK]
+
+# -------------------------
+# World Restrictions
+# -------------------------
+WorldSettings:
+  # Worlds where backpacks are disabled.
+  # Players in these worlds cannot open personal or shared backpacks.
+  BlacklistWorlds:
+    - "NetworkHub"
+    - "Creative"
+    - "Minigames"

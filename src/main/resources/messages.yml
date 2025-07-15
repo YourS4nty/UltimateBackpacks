@@ -1,0 +1,188 @@
+# =============================================
+#         UltimateBackpacks - Messages
+# =============================================
+# NOTE:
+# This file contains all localized messages.
+# The language actually used is controlled in config.yml -> language: en
+# Do not change the top-level "languages:" key.
+
+languages:
+
+  # -------------------------------------------
+  # English Messages (used when language: en)
+  # -------------------------------------------
+  en:
+    # === General messages ===
+    disabled-in-world: "&cYou cannot use backpacks in this world!"
+    reload-success: "&aUltimateBackpacks reloaded successfully."
+    no-permission: "&cYou don't have permission to use this command."
+    ingame-only: "&cThis command can only be used in-game."
+    player-not-found: "&cThat player doesn't exist or has never joined."
+    player-not-online: "&cThe player '%player%' is not online."
+    invalid-number: "&cInvalid number."
+    number-out-of-range: "&cNumber must be between 1 and 10."
+
+    # === Personal Backpacks ===
+    your-backpacks: "&6Your Backpacks (%count%/10)"
+    viewing-backpacks-of: "&6Backpacks of %player%"
+    backpack-name: "&dBackpack #%number%"
+    locked-backpack: "&cLocked"
+    cannot-open-backpack: "&cYou don't have permission to open Backpack #%number%"
+    no-permission-backpack: "&cYou don't have permission to open this many backpacks."
+    backpack-number-out-of-range: "&cBackpack number must be between 1 and 10."
+    backpack-received: "&aYou received a backpack!"
+    give-success: "&aBackpack given to %player%."
+    usage-givebackpack: "&cUsage: /givebackpack <player>"
+    usage-openbp: "&cUsage: /openbp [1-10]"
+    usage-view: "&cUsage: /ubp view <player> [number]"
+    backpack-inventory-title: "&dBackpack #%number%"
+    backpack-item-name: "&6Backpack"
+    backpack-inside-error: "&cYou can't put a backpack inside another backpack!"
+    backpack-inside-error-current: "&cYou can't store a backpack inside your backpack!"
+
+    # === Shared Backpacks ===
+    shared-disabled: "&cShared backpacks are disabled on this server!"
+    shared-title: "&dShared Backpacks"
+    shared-backpack-name: "&dShared Backpack #%number%"
+    shared-backpack-title: "&dShared Backpack: %name%"
+    shared-backpack-lore: "&7Name: %name%"
+    shared-backpack-lore-members: "&7Members: %list%"
+    shared-slot-name: "&cShared Backpack #%name%"
+    shared-slot-lore: "&7You are not part of this shared backpack."
+    shared-locked-slot-name: "&cLocked Slot"
+    shared-locked-slot-lore: "&7You don't have access to this shared backpack."
+    no-shared-backpacks: "&cNo shared backpacks"
+    shared-limit-reached: "&cYou can't have more than 6 shared backpacks (as owner or member)."
+    shared-backpack-does-not-exist: "&cThat shared backpack file does not exist."
+    shared-backpack-not-member: "&cYou are not a member of this shared backpack."
+
+    # === Shared Backpack Commands ===
+    invalid-shared-name: "&cInvalid name. Use 3-20 letters, numbers, hyphens or underscores."
+    shared-already-exists: "&cA shared backpack with that name already exists."
+    shared-created: "&aShared backpack created: %name%"
+    shared-creation-failed: "&cCould not create the shared backpack."
+    shared-deleted: "&aBackpack deleted."
+    shared-deletion-failed: "&cCould not delete the backpack."
+    ownership-transferred: "&aOwnership transferred."
+    transfer-failed: "&cCould not transfer ownership."
+    usage-adduser: "&cUsage: /backpack adduser <name> <user>"
+    usage-removeuser: "&cUsage: /backpack removeuser <name> <user>"
+    usage-transferowner: "&cUsage: /backpack transferowner <name> <user>"
+    unknown-subcommand: "&cUnknown subcommand. Use /backpack to see help."
+    not-owner: "&cOnly the owner can perform this action."
+    user-added: "&aUser added to %name%"
+    user-add-failed: "&cCould not add the user or they are already a member."
+    user-removed: "&aUser removed from %name%"
+    user-remove-failed: "&cCould not remove the user or they weren't a member."
+    left-shared-backpack: "&aYou left the shared backpack %name%."
+    cannot-leave-own-backpack: "&cYou can't leave your own shared backpack."
+    error-leaving-backpack: "&cThere was an error while leaving the shared backpack."
+
+    # === Help Texts ===
+    backpack-usage-header: "&eCorrect usage of /backpack:"
+    backpack-usage-line1: "&7/backpack newshared <name>"
+    backpack-usage-line2: "&7/backpack adduser <name> <user>"
+    backpack-usage-line3: "&7/backpack removeuser <name> <user>"
+    backpack-usage-line4: "&7/backpack delshared <name>"
+    backpack-usage-line5: "&7/backpack transferowner <name> <user>"
+
+    admin-help-reload: "Reloads the plugin and configuration files."
+    admin-help-view: "Opens another player's backpacks (requires permission)."
+    usage-viewshared: "&cUsage: /ubp viewshared <name>"
+    invalid-subcommand: "&cInvalid subcommand. Use /ubp to see available options."
+    log-no-logs: "&cNo logs available."
+    log-no-file: "&cNo log file exists for that date."
+    log-read-error: "&cError reading log file."
+    log-no-matches: "&cNo matches found."
+    log-page-out-of-range: "&cPage out of range. %total% pages available."
+    admin-help-viewshared: "Opens a shared backpack by its name."
+    admin-help-log: "Shows the list of available logs."
+    admin-help-logview: "Views the specified log file. Optional filters and pages."
+
+
+  # -------------------------------------------
+  # Spanish Messages (used when language: es)
+  # -------------------------------------------
+  es:
+    disabled-in-world: "&c¡No puedes usar mochilas en este mundo!"
+    reload-success: "&aUltimateBackpacks recargado correctamente."
+    no-permission: "&cNo tienes permiso para usar este comando."
+    ingame-only: "&cEste comando solo puede usarse dentro del juego."
+    player-not-found: "&cEse jugador no existe o nunca ha entrado."
+    player-not-online: "&cEl jugador '%player%' no está en línea."
+    invalid-number: "&cNúmero inválido."
+    number-out-of-range: "&cEl número debe estar entre 1 y 10."
+
+    your-backpacks: "&6Tus Mochilas (%count%/10)"
+    viewing-backpacks-of: "&6Mochilas de %player%"
+    backpack-name: "&dMochila #%number%"
+    locked-backpack: "&cBloqueada"
+    cannot-open-backpack: "&cNo tienes permiso para abrir la Mochila #%number%"
+    no-permission-backpack: "&cNo tienes permiso para abrir tantas mochilas."
+    backpack-number-out-of-range: "&cEl número de mochila debe estar entre 1 y 10."
+    backpack-received: "&a¡Recibiste una mochila!"
+    give-success: "&aMochila entregada a %player%."
+    usage-givebackpack: "&cUso correcto: /givebackpack <jugador>"
+    usage-openbp: "&cUso correcto: /openbp [1-10]"
+    usage-view: "&cUso correcto: /ubp view <jugador> [número]"
+    backpack-inventory-title: "&dMochila #%number%"
+    backpack-item-name: "&6Mochila"
+    backpack-inside-error: "&c¡No puedes meter una mochila dentro de otra!"
+    backpack-inside-error-current: "&c¡No puedes guardar una mochila dentro de tu propia mochila!"
+
+    shared-disabled: "&cLas mochilas compartidas están deshabilitadas en este servidor."
+    shared-title: "&dMochilas Compartidas"
+    shared-backpack-name: "&dMochila Compartida #%number%"
+    shared-backpack-title: "&dMochila Compartida: %name%"
+    shared-backpack-lore: "&7Nombre: %name%"
+    shared-backpack-lore-members: "&7Miembros: %list%"
+    shared-slot-name: "&cMochila Compartida #%name%"
+    shared-slot-lore: "&7No formas parte de esta mochila compartida."
+    shared-locked-slot-name: "&cEspacio bloqueado"
+    shared-locked-slot-lore: "&7No tienes acceso a esta mochila compartida."
+    no-shared-backpacks: "&cSin mochilas compartidas"
+    shared-limit-reached: "&cNo puedes tener más de 6 mochilas compartidas (como owner o miembro)."
+    shared-backpack-does-not-exist: "&cEse archivo de mochila compartida no existe."
+    shared-backpack-not-member: "&cNo eres miembro de esta mochila compartida."
+
+    invalid-shared-name: "&cNombre inválido. Usa solo letras, números, guiones o guiones bajos (3-20 caracteres)."
+    shared-already-exists: "&cYa existe una mochila compartida con ese nombre."
+    shared-created: "&aMochila compartida creada: %name%"
+    shared-creation-failed: "&cNo se pudo crear la mochila."
+    shared-deleted: "&aMochila eliminada."
+    shared-deletion-failed: "&cNo se pudo eliminar la mochila."
+    ownership-transferred: "&aPropiedad transferida."
+    transfer-failed: "&cNo se pudo transferir la propiedad."
+    usage-adduser: "&cUso: /backpack adduser <mochila> <usuario>"
+    usage-removeuser: "&cUso: /backpack removeuser <mochila> <usuario>"
+    usage-transferowner: "&cUso: /backpack transferowner <mochila> <usuario>"
+    unknown-subcommand: "&cSubcomando desconocido. Usa /backpack para ver la ayuda."
+    not-owner: "&cSolo el propietario puede realizar esta acción."
+    user-added: "&aUsuario añadido a %name%"
+    user-add-failed: "&cNo se pudo añadir el usuario o ya es miembro."
+    user-removed: "&aUsuario eliminado de %name%"
+    user-remove-failed: "&cNo se pudo eliminar el usuario o no era miembro."
+    left-shared-backpack: "&aSaliste de la mochila compartida %name%."
+    cannot-leave-own-backpack: "&cNo puedes salir de una mochila que tú creaste."
+    error-leaving-backpack: "&cHubo un error al salir de la mochila compartida."
+
+    backpack-usage-header: "&eUso correcto de /backpack:"
+    backpack-usage-line1: "&7/backpack newshared <nombre>"
+    backpack-usage-line2: "&7/backpack adduser <mochila> <usuario>"
+    backpack-usage-line3: "&7/backpack removeuser <mochila> <usuario>"
+    backpack-usage-line4: "&7/backpack delshared <nombre>"
+    backpack-usage-line5: "&7/backpack transferowner <mochila> <usuario>"
+
+    admin-help-reload: "Recarga el plugin y los archivos de configuración."
+    admin-help-view: "Abre las mochilas de otro jugador (requiere permisos)."
+    usage-viewshared: "&cUso correcto: /ubp viewshared <nombre>"
+    invalid-subcommand: "&cSubcomando inválido. Usa /ubp para ver las opciones disponibles."
+    log-no-logs: "&cNo hay registros disponibles."
+    log-no-file: "&cNo existe un archivo de registro para esa fecha."
+    log-read-error: "&cError al leer el archivo de registro."
+    log-no-matches: "&cNo se encontraron coincidencias."
+    log-page-out-of-range: "&cPágina fuera de rango. Hay %total% páginas disponibles."
+    admin-help-viewshared: "Abre una mochila compartida por su nombre."
+    admin-help-log: "Muestra la lista de archivos de registro disponibles."
+    admin-help-logview: "Muestra el archivo de registro especificado. Puedes filtrar y paginar."
+
