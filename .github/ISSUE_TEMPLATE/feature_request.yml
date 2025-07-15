@@ -1,0 +1,36 @@
+name: "💡 Feature Request"
+description: Suggest a new feature or enhancement for the plugin.
+title: "[FEATURE] "
+labels: [enhancement]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the suggestion! Please describe your idea in detail.
+
+  - type: input
+    id: context
+    attributes:
+      label: Use Case
+      description: What problem are you trying to solve or what improvement do you want?
+      placeholder: "e.g. Allow players to rename backpacks..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Feature Description
+      description: Describe the feature you’re requesting.
+      placeholder: Describe the feature...
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives Considered
+      description: Have you considered any other options or workarounds?
+      placeholder: Describe any alternatives or why this would be best...
+    validations:
+      required: false
